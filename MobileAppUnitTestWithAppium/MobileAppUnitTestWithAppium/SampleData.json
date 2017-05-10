@@ -1,0 +1,85 @@
+﻿{
+  "MainPage.xaml": [
+    {
+      "Name": "The Hunger Games",
+      "Author": "Suzanne Collins",
+      "CoverUri": "https://images.gr-assets.com/books/1447303603l/2767052.jpg",
+      "ISBN": "0439023483",
+      "Price": 6.7,
+      "ReleaseDate": "2008-09-14T00:00:00"
+    },
+    {
+      "Name": "Harry Potter and the Order of the Phoenix",
+      "Author": "J.K. Rowling, Mary GrandPré",
+      "CoverUri": "https://images.gr-assets.com/books/1387141547l/2.jpg",
+      "ISBN": "0439358078",
+      "Price": 6.39,
+      "ReleaseDate": "2004-08-10T00:00:00"
+    },
+    {
+      "Name": "To Kill a Mockingbird",
+      "Author": "Harper Lee",
+      "CoverUri": "https://images.gr-assets.com/books/1361975680l/2657.jpg",
+      "ISBN": "0439023483",
+      "Price": 16.89,
+      "ReleaseDate": "2006-05-23T00:00:00"
+    },
+    {
+      "Name": "Pride and Prejudice",
+      "Author": "Jane Austen",
+      "CoverUri": "https://images.gr-assets.com/books/1320399351l/1885.jpg",
+      "ISBN": "0679783261",
+      "Price": 4.8,
+      "ReleaseDate": "2000-10-10T00:00:00"
+    },
+    {
+      "Name": "Twilight",
+      "Author": "Stephenie Meyer",
+      "CoverUri": "https://images.gr-assets.com/books/1447303603l/2767052.jpg",
+      "ISBN": "0316015849",
+      "Price": 8.88,
+      "ReleaseDate": "2006-09-06T00:00:00"
+    },
+    {
+      "Name": "The Chronicles of Narnia",
+      "Author": "C.S. Lewis, Pauline Baynes",
+      "CoverUri": "https://images.gr-assets.com/books/1449868701l/11127.jpg",
+      "ISBN": "0066238501",
+      "Price": 13.54,
+      "ReleaseDate": "2002-09-16T00:00:00"
+    },
+    {
+      "Name": "The Book Thief",
+      "Author": "Markus Zusak",
+      "CoverUri": "https://images.gr-assets.com/books/1390053681l/19063.jpg",
+      "ISBN": "0375831002",
+      "Price": 7.0,
+      "ReleaseDate": "2006-03-14T00:00:00"
+    },
+    {
+      "Name": "Animal Farm",
+      "Author": "George Orwell",
+      "CoverUri": "https://images.gr-assets.com/books/1424037542l/7613.jpg",
+      "ISBN": "0452284244",
+      "Price": 10.0,
+      "ReleaseDate": "2003-05-06T00:00:00"
+    },
+    {
+      "Name": "Gone with the Wind",
+      "Author": "Margaret Mitchell",
+      "CoverUri": "https://images.gr-assets.com/books/1328025229l/18405.jpg",
+      "ISBN": "0446675539",
+      "Price": 25.0,
+      "ReleaseDate": "1999-04-01T00:00:00"
+    },
+    {
+      "Name": "The Hitchhiker's Guide to the Galaxy",
+      "Author": "Douglas Adams",
+      "CoverUri": "https://images.gr-assets.com/books/1327656754l/11.jpg",
+      "ISBN": "0345391802",
+      "Price": 8.16,
+      "ReleaseDate": "1995-09-27T00:00:00"
+    }
+  ]
+
+}

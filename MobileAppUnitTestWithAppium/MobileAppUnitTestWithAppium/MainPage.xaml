@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:MobileAppUnitTestWithAppium"
+             x:Class="MobileAppUnitTestWithAppium.MainPage">
+    <ContentPage.Content>
+        <StackLayout Margin="20">
+            <Label Text="Books List"
+                   HorizontalOptions="Center"
+                   FontSize="32" />
+            <ListView x:Name="listView"
+                      AutomationId="listView"
+                      ItemsSource="{Binding .}"
+                      RowHeight="100"
+                      ItemSelected="listView_OnItemSelected">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Grid Margin="4">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto"></ColumnDefinition>
+                                    <ColumnDefinition Width="*"></ColumnDefinition>
+                                    <ColumnDefinition Width="Auto"></ColumnDefinition>
+                                </Grid.ColumnDefinitions>
+                                <Image Source="{Binding CoverUri}" Margin="4"/>
+                                <StackLayout Grid.Column="1" VerticalOptions="Center"
+                                             Spacing="1" Margin="4">
+                                    <Label Text="{Binding Name}"
+                                           FontAttributes="Bold"
+                                           FontSize="20"
+                                           AutomationId="txtName" />
+                                    <Label Text="{Binding Author}"
+                                           FontSize="Small"
+                                           AutomationId="txtAuthor" />
+                                </StackLayout>
+                                <Label Grid.Column="2"
+                                       Text="{Binding Price}"
+                                       FontAttributes="Bold"
+                                       FontSize="44"
+                                       HorizontalOptions="End"
+                                       VerticalOptions="Center"
+                                       AutomationId="txtPrice" />
+                            </Grid>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
